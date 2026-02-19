@@ -1,0 +1,7 @@
+from math import factorial
+
+# Ham tinh toan giai thua
+def fact(n):
+    if n == 0 or n == 1: return 1
+    else:
+        return n * factorial(n-1)
